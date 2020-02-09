@@ -1,4 +1,10 @@
+<p align="center">
+<img src="https://vueschool.io/media/cb103360d9341bd311b96974a83a3a91/vuejs-components-fundamentals.png" width="300" />
+</p>
+<p align="center">
 One of the common trends in the app development space today is the pattern of microservices and component-based architectures, which when done correctly, gives you ultimate flexibility and scalability where it matters.
+</p>
+<br>
 
 ## So what is component-based architectures
 
