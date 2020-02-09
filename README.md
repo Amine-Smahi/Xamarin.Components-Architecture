@@ -8,15 +8,13 @@ One of the common trends in the app development space today is the pattern of mi
 
 ## So what is component-based architectures
 
-Component-based architecture focuses on the decomposition of the design into individual functional or logical components that represent well-defined communication interfaces containing methods, events, and properties. It provides a higher level of abstraction and divides the problem into sub-problems, each associated with component partitions.
+Component-based architecture focuses on the decomposition of the design into individual functional or logical components that represent well-defined communication interfaces containing methods, events, and properties. 
 
 The primary objective of component-based architecture is to ensure component reusability. A component encapsulates functionality and behaviors of a software element into a reusable and self-deployable binary unit.
 
 ## But what is a Component?
 
 A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
-
-A component is a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities. It has an obviously defined interface and conforms to a recommended behavior common to all components within an architecture.
 
 
 ## Xamarin ?
@@ -25,8 +23,8 @@ Xamarin is an open-source platform for building modern and performant applicatio
 ## Story time !
 Xamarin is a flexible platform that enable the developer to work with almost any pattern and architecture, At start the app needed some basic UI with few interactions for crud operations, Soon later the app has grown in size, complexity and the UI became much much complex, That made us challenges as we were debugging specific part of the UI and behavior also the newer recruited devs took a long time to follow the hierarchy.
 
-### What we did 
-- We decoupled the pages into reusable components that we can use in other parts of the app.
+### What i did 
+- I decoupled the pages into reusable components that we can use in other parts of the app.
 - The components are simple ContentView Views that contains a specific UI with it own behavior.
 - The components can be used in pages or can be used in other components
 
@@ -42,17 +40,15 @@ Xamarin is a flexible platform that enable the developer to work with almost any
 - Updating and improving components became easy because you don't have to deal with other none related code.
 - Dividing tasks have never been this easy.
 
-## Awesome ! Can you show us a demo ?
+## Awesome! wanna see a demo?
 The demo makes use of 3 components to load a list of objects and display them inside a stack list component with ability to like any of them witch is a behavior inside the card component, When you scroll to the bottom the loading component is shown before we load much more objects.
 
 ![image](https://user-images.githubusercontent.com/24621701/74107889-e2b4a300-4b74-11ea-953b-364a63c087b8.png)
 
-<br>
+<br> 
 
 ## Requirement
-- There is no dll or library to download
-- Nothing to install
-- Its just an approach :D
+Nothing to download, nothing to install its just an approach
 
 ## Notice
 Feel free to add more components to the demo project or if you have another approach that can improve this one then your more then welcomed 
