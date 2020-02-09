@@ -22,7 +22,7 @@ A component is a software object, intended to interact with other components, en
 ## Xamarin ?
 Xamarin is an open-source platform for building modern and performant applications for iOS, Android, and Windows with .NET. Xamarin is an abstraction layer that manages communication of shared code with underlying platform code. Xamarin runs in a managed environment that provides conveniences such as memory allocation and garbage collection.
 
-## My story
+## Story time !
 Xamarin is a flexible platform that enable the developer to work with almost any pattern and architecture, At start the app needed some basic UI with few interactions for crud operations, Soon later the app has grown in size, complexity and the UI became much much complex, That made us challenges as we were debugging specific part of the UI and behavior also the newer recruited devs took a long time to follow the hierarchy.
 
 ### What we did 
