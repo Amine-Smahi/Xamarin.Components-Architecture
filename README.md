@@ -42,7 +42,17 @@ Xamarin is a flexible platform that enable the developer to work with almost any
 - Updating and improving components became easy because you don't have to deal with other none related code.
 - Dividing tasks have never been this easy.
 
+## Awesome ! Can you show us a demo ?
+The demo makes use of 3 components to load a list of objects and display them inside a stack list component with ability to like any of them witch is a behavior inside the card component, When you scroll to the bottom the loading component is shown before we load much more objects.
 
+![image](https://user-images.githubusercontent.com/24621701/74107889-e2b4a300-4b74-11ea-953b-364a63c087b8.png)
 
+<br>
 
+## Requirement
+- There is no dll or library to download
+- Nothing to install
+- Its just an approach :D
 
+## Notice
+Feel free to add more components to the demo project or if you have another approach that can improve this one then your more then welcomed 
