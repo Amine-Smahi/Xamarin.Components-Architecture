@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="StackList.Components.Card">
+    <ContentView.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="2,20,2,20" BackgroundColor="#f4f4f4" HeightRequest="300">
+            <Frame Padding="15" CornerRadius="20" BackgroundColor="White">
+                <StackLayout>
+                    <Frame Padding="0" IsClippedToBounds="True" HeightRequest="150" CornerRadius="20">
+                        <ffimageloading:CachedImage x:Name="CardImage" CacheDuration="50" RetryCount="3" RetryDelay="300" DownsampleToViewSize="true" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="Fill" />
+                    </Frame>
+                    <Label x:Name="Title" FontSize="22" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,5,0,5"/>
+                    <Label x:Name="Description" FontSize="14" />
+                    <Button x:Name="like" Text="like" BackgroundColor="Gray" Clicked="Like_Clicked" CornerRadius="20" TextColor="White" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

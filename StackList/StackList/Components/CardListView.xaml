@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#f4f4f4"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="StackList.Components.CardListView">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <RefreshView Grid.Row="0" x:Name="RefreshPage" VerticalOptions="FillAndExpand" RefreshColor="Teal" Refreshing="RefreshPage_Refreshing">
+            <ScrollView x:Name="Scroll" VerticalScrollBarVisibility="Never" Scrolled="ScrollView_Scrolled">
+                <StackLayout x:Name="repeater" Orientation="Vertical" HorizontalOptions="CenterAndExpand" Margin="15,0,15,15"></StackLayout>
+            </ScrollView>
+        </RefreshView>
+        <Frame x:Name="GoToTopListVisibility" Opacity="0" Padding="0" Grid.Row="0" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" CornerRadius="27" HeightRequest="53" WidthRequest="54" Margin="20">
+            <Button x:Name="GoTopList" Text="↑" Padding="0" FontSize="20" FontAttributes="Bold" TextColor="Black" HeightRequest="54" WidthRequest="54" CornerRadius="27"   BackgroundColor="#f4f4f4" Clicked="GoTopList_Clicked"></Button>
+        </Frame>
+    </Grid>
+</ContentView>
